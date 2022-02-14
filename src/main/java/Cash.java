@@ -1,4 +1,4 @@
-public class Cash {
+public class Cash implements IPay{
     private Double amount;
 
     public Cash(Double amount) {
