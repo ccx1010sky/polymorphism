@@ -16,5 +16,10 @@ public class CashTest {
         assertEquals(100.00,cash.getAmount(),0.00);
     }
 
+    @Test
+    public void canPay(){
+        assertEquals("Cash payment completed",cash.pay());
+    }
+
 
 }
